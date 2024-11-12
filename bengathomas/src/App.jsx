@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css'
 
 function App() {
 
@@ -8,10 +8,11 @@ function App() {
     {/*NAVBAR */}
   <div className='navbar'></div>
 
-  <div className='header'>
+
+  <div className='header' >
   <img src='./pictures/atlutd_logo.png' alt='photo of Ben'></img>
 
-  <p className='about'>My name is Benjamin Thomas. I am a JavaScript developer living in Atlanta, GA. I have experience working with JavaScript, TypeScript, ReactJS, AngularJS, Next.JS and MYSQL. I have a desire to learn new languages and growing my knowledge of web development and web design. Below you can see some of the projects I have worked on.</p>
+  <p className='about'>My name is Benjamin Thomas. I am a software engineer living in Atlanta, GA. I have experience working with JavaScript, TypeScript, React, NextJS, MongoDB and MYSQL. I have a desire to learn new languages and growing my knowledge of web development and web design. Below you can see some of the projects I have worked on.</p>
   </div>
 
 
@@ -21,11 +22,9 @@ function App() {
     <li>
       <ul>JavaScript</ul>
       <ul>TypeScript</ul>
-      <ul>ReactJS</ul>
-      <ul>AngularJS</ul>
-      <ul>HTML</ul>
-      <ul>CSS</ul>
-      <ul>Postman</ul>
+      <ul>React</ul>
+      <ul>HTML/CSS</ul>
+      <ul>MongoDB</ul>
       <ul>MYSQL</ul>
     </li>
 
@@ -65,7 +64,8 @@ function App() {
   <div className='contactInfo'>
     <h1>Contact Me</h1>
     <h3>Benjamingathomas@gmail.com</h3>
-    <h3>Github</h3>
+    <a href='https://www.linkedin.com/in/benjamingathomas/'><h3>LinkedIn</h3></a> 
+    <a href='https://github.com/BenGAThomas'><h3>Github</h3></a> 
   </div>
 
 
