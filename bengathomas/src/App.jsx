@@ -1,4 +1,12 @@
 import './index.css'
+import { FaGithub } from "react-icons/fa";
+
+export const LINKS = [
+  {id: "projects", name: "projects"},
+  {id: "about", name: "about"},
+  {id: "experience", name: "experience"},
+  {id: "contact", name: "contact"}
+]
 
 function App() {
 
@@ -6,7 +14,7 @@ function App() {
   return (
     <>
     {/*NAVBAR */}
-  <div className='navbar'></div>
+  <div className='navBar'></div>
 
 
   <div className='header' >
@@ -65,7 +73,7 @@ function App() {
     <h1>Contact Me</h1>
     <h3>Benjamingathomas@gmail.com</h3>
     <a href='https://www.linkedin.com/in/benjamingathomas/'><h3>LinkedIn</h3></a> 
-    <a href='https://github.com/BenGAThomas'><h3>Github</h3></a> 
+    <a href="http://www.github.com/BenGAThomas"><FaGithub>Ben Thomas</FaGithub></a>
   </div>
 
 
