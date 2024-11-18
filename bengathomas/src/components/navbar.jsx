@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 import { LINKS } from "../App";
 
 
-const navBar = () => {
+const NavBar = () => {
         const [isOpen, setIsOpen] = useState(false);
 
         const toggleMenu = () => {
@@ -47,4 +47,4 @@ const navBar = () => {
     )
 }
 
-export default navBar;
+export default NavBar;
