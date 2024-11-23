@@ -2,8 +2,8 @@ import './index.css';
 import NavBar from './components/navbar';
 import BenT from './components/benThomas';
 import Projects from './components/projects';
-import Skills from './components/skills';
 import Contact from './components/contact';
+import Marquee from './components/Marquee';
 
 export const LINKS = [
   {id: "projects", name: "projects"},
@@ -11,6 +11,9 @@ export const LINKS = [
   {id: "experience", name: "experience"},
   {id: "contact", name: "contact"}
 ]
+
+export const SKILLS =
+  "React, Node, Tailwind, Javascript, HTML/CSS, MYSQL, Angular, Postgres, MongoDB, AWS"
 
 function App() {
 
@@ -21,9 +24,11 @@ function App() {
 
       <BenT />
 
+      <Marquee />
+      
       <Projects />
 
-      <Skills />
+
 
       <Contact />
 

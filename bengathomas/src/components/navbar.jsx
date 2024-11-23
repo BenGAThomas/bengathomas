@@ -12,7 +12,7 @@ const NavBar = () => {
         }
 
         useEffect(() => {
-            if (!isOpen) {
+            if (isOpen) {
                 document.body.style.overflow = "hidden";
             } else {
                 document.body.style.overflow = "auto";
@@ -23,7 +23,7 @@ const NavBar = () => {
             <nav className="fixed right-0 top-0 z-30 p-4">
                 <button onClick={toggleMenu} className="rounded-md p-2">
                     {isOpen ? (
-                        <FaTimes className="h-6 w-6" />
+                        <FaTimes className="h-6 w-6" color="purple" />
                     ) : (
                         <FaBars className="h-6 w-6" /> 
                     )}
@@ -35,7 +35,7 @@ const NavBar = () => {
                         {LINKS.map((link) => (
                             <li key={link.id}>
                                 <a href={`#${link.id}`} onClick={toggleMenu}
-                                className="text-5xl font-semibold uppercase tracking-wide hover:text-lime-300 lg:text-9xl">
+                                className="text-2xl font-semibold uppercase tracking-wide hover:text-blue-600 lg:text-9xl">
                                     {link.name}
                                 </a>
                             </li>
