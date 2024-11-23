@@ -8,4 +8,5 @@
     font-family: "Merriweather", sans-serif;
     background: #edeaea;
     scroll-behavior: smooth;
+    /* overflow-y: auto; */
 }
