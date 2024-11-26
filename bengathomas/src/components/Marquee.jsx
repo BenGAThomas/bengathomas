@@ -1,4 +1,4 @@
-import {SKILLS} from "../App.jsx"
+import {SKILLS} from "./exports.jsx"
 
 const Marquee = () => {
     return (
