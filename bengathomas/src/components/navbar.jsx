@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-import { LINKS } from "../App";
+import { LINKS } from "./exports";
 
 
 const NavBar = () => {
