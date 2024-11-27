@@ -1,4 +1,4 @@
-import { PROJECTS} from "./exports"
+import { PROJECTS } from "./exports"
 
 const Projects = () => {
     return (
@@ -9,7 +9,12 @@ const Projects = () => {
             <a key={project.id} href={project.link} target="_blank"
             rel="noopener noreferrer" className="block">
               <div className="relative mb-4 overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src={project.imgSource} />
+                <img src={project.imgSource} alt={project.title}
+                className="h-auto w-full object-cover" />
+                <div className="absolute bottom-0 left-0 right-0 m-8 p-8 text-blue-700 backdrop-blur-md">
+                  <h3 className="text-3xl">{project.title}</h3>
+                  <p className="max-w-xs text-lg">{project.description}</p>
+                </div>
               </div>
             </a>
           ))}
