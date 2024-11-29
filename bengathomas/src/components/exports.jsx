@@ -3,9 +3,11 @@ export const LINKS = [
     {id: "about", name: "about"},
     {id: "experience", name: "experience"},
     {id: "contact", name: "contact"}
-  ]
+  ];
 
-import CharacterPointBuy from "../assets/CharacterPointBuy.webp"
+import CharacterPointBuy from "../assets/CharacterPointBuy.webp";
+import MLSAPI from "../assets/MLSAPI.png";
+import iPrep from "../assets/iPrep.png";
 
 export const SKILLS =
     "React, Node, Tailwind, Javascript, HTML/CSS, MYSQL, Angular, Postgres, MongoDB, AWS,"
@@ -15,8 +17,8 @@ export const PROJECTS = [
     {
         id: 1,
         title: "Iprep",
-        description: "A full stack meal prep website built using React, TailwindCSS, and Node.js",
-        imgSource: CharacterPointBuy,
+        description: "A full stack meal prep website built using React, TailwindCSS, SEO, and Node.js",
+        imgSource: iPrep,
         link: "https://github.com/BenGAThomas",
     },
 
@@ -31,10 +33,10 @@ export const PROJECTS = [
     {
         id: 3,
         title: "MLS Search API",
-        description: "You can click on a team's logo to find current information about the team ",
-        imgSource: "/bengathomas/assets/CharacterPointBuy.webp",
+        description: "An API website where you can find some information about MLS teams.",
+        imgSource: MLSAPI,
         link: "https://github.com/BenGAThomas",
     },
 
 
-]
+];
