@@ -4,6 +4,7 @@ import BenT from './components/benThomas';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Marquee from './components/Marquee';
+import About from './components/About';
 
 
 
@@ -15,6 +16,8 @@ function App() {
       <NavBar />
 
       <BenT />
+
+      <About />
 
       <Marquee />
       
