@@ -6,7 +6,7 @@ const Skills = () => {
     <h1>Skills</h1>
     <li>
       <ul>JavaScript</ul>
-      <ul>TypeScript</ul>
+      <ul>Vue</ul>
       <ul>React</ul>
       <ul>HTML/CSS</ul>
       <ul>MongoDB</ul>
