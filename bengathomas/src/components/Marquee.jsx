@@ -1,13 +1,18 @@
 import {SKILLS} from "./exports.jsx"
+import { motion } from "framer-motion"
 
 const Marquee = () => {
     return (
         <div className="mt-4 w-full bg-red-600 text-black lg:py-6">
             <div className="flex overflow-hidden whitespace-nowrap">
                 {[...Array(2)].map((_, i) => (
-                    <h1 key={i} className="py-1 text-2xl font-bold leading-none tracking-tighter lg:text-4xl">
+                    <motion.h1
+                    initial={{ x: "-100%" }}
+                    animate={{ x: 0 }}
+                    transition={{ repeat: Infinity, case: "linear", duration: 20 }}
+                     key={i} className="py-1 text-2xl font-bold leading-none tracking-tighter lg:text-4xl">
                         {SKILLS}
-                    </h1>
+                    </motion.h1>
                 ))}
             </div>
         </div>
