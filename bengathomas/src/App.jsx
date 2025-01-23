@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <main>
+    <main className='bg-gradient-to-b from-lime-600 to-purple-600'>
       <NavBar />
 
       <BenT />

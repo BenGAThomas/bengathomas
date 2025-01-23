@@ -10,7 +10,7 @@ import MLSAPI from "../assets/MLSAPI.png";
 import iPrep from "../assets/iPrep.png";
 
 export const SKILLS =
-    "React, Node, Tailwind, Javascript, HTML/CSS, MYSQL, Angular, Postgres, MongoDB, AWS,"
+    "React, Node, Tailwind, Javascript, HTML/CSS, MYSQL, Angular, Postgres, MongoDB, AWS, Python,"
   
 
 export const PROJECTS = [
