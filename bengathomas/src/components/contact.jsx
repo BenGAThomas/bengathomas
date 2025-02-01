@@ -10,7 +10,7 @@ const Contact = () => {
         <p className="my-4 text-center text-xl">I am continuously looking for the opportunity to freelance or contract work on building your website or creating projects. Feel free to reach out to me regarding work so we can build your website.</p>
       </div>
     <div className="text-center">
-    <button onClick={() => window.location.href = 'mailto:Benjamingathomas@gmail.com'} className="my-4 text-2xl font-medium text-red-500 lg:pt-6 lg:text-5xl" >Benjamingathomas@gmail.com</button>
+    <button onClick={() => window.location.href = 'mailto:Benjamingathomas@gmail.com'} className="my-4 text-2xl font-medium text-black lg:pt-6 lg:text-5xl" >Benjamingathomas@gmail.com</button>
     </div>
 
     <div className="mt-5 mb-8 flex items-center justify-center gap-8">

@@ -1,4 +1,5 @@
 import { LuImport } from "react-icons/lu";
+import BenResume from '../assets/Benjamin Thomas Resume.pdf';
 
 const BenT = () => {
     return (
@@ -9,7 +10,7 @@ const BenT = () => {
                 </h1>
             {/* <img src='./pictures/atlutd_logo.png' alt='photo of Ben'></img> */}
             <div className="mt-8">
-                <a href="./assets/Benjamin Thomas Resume.pdf" 
+                <a href={BenResume} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     download
