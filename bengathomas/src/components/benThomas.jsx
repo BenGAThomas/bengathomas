@@ -13,7 +13,7 @@ const BenT = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                     download
-                    className="flex items-center rounded-xl bg-green-500 p-3 px-3 font-sans font-medium text-black hover:bg-green-800">
+                    className="flex items-center rounded-xl bg-green-500 p-3 px-3 font-sans font-medium text-black ">
                         <span>Benjamin Thomas Resume.pdf</span>
                         <LuImport className="ml-2" />
                     </a>
