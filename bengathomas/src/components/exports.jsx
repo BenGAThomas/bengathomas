@@ -25,9 +25,9 @@ export const PROJECTS = [
     {
         id: 2,
         title: "D&D Point Buy Calculator",
-        description: "A React website where you can spend points for your characters attributes",
+        description: "A point buy calculator that uses useState",
         imgSource: CharacterPointBuy,
-        link: "https://github.com/BenGAThomas",
+        link: "https://github.com/BenGAThomas/CharacterStats",
     },
 
     {
@@ -35,7 +35,7 @@ export const PROJECTS = [
         title: "MLS Search API",
         description: "An API website where you can find some information about MLS teams.",
         imgSource: MLSAPI,
-        link: "https://github.com/BenGAThomas",
+        link: "https://github.com/BenGAThomas/Front-End-Project",
     },
 
 

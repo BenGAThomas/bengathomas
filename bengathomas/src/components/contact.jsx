@@ -6,8 +6,8 @@ const Contact = () => {
     return (
     <section id='contact'>
       <div className="mx-auto max-w-6xl">
-        <h1 className="my-10 text-center text-2xl lg:text-4xl">Contact Me</h1>
-        <p className="my-4 text-center text-xl">I am continuously looking for the opportunity to freelance or contract work on building your website or creating projects. Feel free to reach out to me regarding work so we can build your website.</p>
+        <h1 className="my-10 text-center text-[5vw]">Contact Me</h1>
+        <p className="my-4 text-center text-[3vw]">I am continuously looking for the opportunity to freelance or contract work on building your website or creating projects. Feel free to reach out to me regarding work so we can build your website.</p>
       </div>
     <div className="text-center">
     <button onClick={() => window.location.href = 'mailto:Benjamingathomas@gmail.com'} className="my-4 text-2xl font-medium text-red-500 lg:pt-6 lg:text-5xl" >Benjamingathomas@gmail.com</button>
