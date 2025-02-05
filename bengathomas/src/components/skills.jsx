@@ -19,7 +19,7 @@ const Skills = () => {
     <div>
 
     <div>
-    <h1 className="text-center mb-8 mt-20 text-[2vw] font-bold">Skills</h1>
+    <h1 className="text-center mb-8 mt-20 text-[5vw] font-bold">Skills</h1>
       <div className='w-150 h-1500 grid grid-cols-3 gap-8 m-8 justify-items-center'>
 
         <div>
