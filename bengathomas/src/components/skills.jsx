@@ -65,15 +65,29 @@ const Skills = () => {
     </div>
 
     
-    <h2 className="text-center m-4">Soft Skills</h2>
-    <div className="grid grid-cols-3 gap 4 text-center">
-      <div>Communication</div>
-      <div>Problem Solving</div>
-      <div>Customer Service</div>
-      <div>Time Management</div>
-      <div>Critical Thinking</div>
-      <div>Adaptability</div>
-    </div>
+    <h2 className="text-center m-4 text-[1vw]">Soft Skills</h2>
+    <div className="flex flex-col items-center">
+  <ul className="list-none bg-green-100 p-3" >
+    <li>
+      Communication
+    </li>
+    <li>
+      Problem Solving
+    </li>
+    <li >
+      Customer Service
+    </li>
+    <li>
+      Time Management
+    </li>
+    <li>
+      Critical Thinking
+    </li>
+    <li>
+      Adaptability
+    </li>
+  </ul>
+</div>
 
   </div>
 )
