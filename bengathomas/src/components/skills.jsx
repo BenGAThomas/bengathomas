@@ -1,16 +1,16 @@
-import jsLogo from '../assets/logo-javascript.svg'
-import awsLogo from '../assets/aws-2.svg';
-import htmlLogo from '../assets/html-1.svg';
-import cssLogo from '../assets/css-3.svg';
-import mongodbLogo from '../assets/mongodb-icon-2.svg';
-import mysqlLogo from '../assets/mysql-logo-pure.svg';
-import nodejsLogo from '../assets/nodejs-3.svg';
-import postgresLogo from '../assets/postgresql.svg';
-import postmanLogo from '../assets/postman.svg';
-import pythonLogo from '../assets/python-4.svg';
-import reactLogo from '../assets/react-2.svg';
-import tailwindLogo from '../assets/tailwind-css-2.svg';
-import vercelLogo from '../assets/vercel.svg';
+import jsLogo from '../public/assets/logo-javascript.svg'
+import awsLogo from '../public/assets/aws-2.svg';
+import htmlLogo from '../public/assets/html-1.svg';
+import cssLogo from '../public/assets/css-3.svg';
+import mongodbLogo from '../public/assets/mongodb-icon-2.svg';
+import mysqlLogo from '../public/assets/mysql-logo-pure.svg';
+import nodejsLogo from '../public/assets/nodejs-3.svg';
+import postgresLogo from '../public/assets/postgresql.svg';
+import postmanLogo from '../public/assets/postman.svg';
+import pythonLogo from '../public/assets/python-4.svg';
+import reactLogo from '../public/assets/react-2.svg';
+import tailwindLogo from '../public/assets/tailwind-css-2.svg';
+import vercelLogo from '../public/assets/vercel.svg';
 
 const Skills = () => {
     return (
@@ -65,28 +65,17 @@ const Skills = () => {
     </div>
 
     
-    <h2 className="text-center m-4 text-[1vw]">Soft Skills</h2>
-    <div className="flex flex-col items-center">
-  <ul className="list-none bg-green-100 p-3" >
-    <li>
-      Communication
-    </li>
-    <li>
-      Problem Solving
-    </li>
-    <li >
-      Customer Service
-    </li>
-    <li>
-      Time Management
-    </li>
-    <li>
-      Critical Thinking
-    </li>
-    <li>
-      Adaptability
-    </li>
-  </ul>
+
+{/*    <h2 className="text-center m-4">Soft Skills</h2>
+    <div className="grid grid-cols-3 gap 4 text-center">
+      <div>Communication</div>
+      <div>Problem Solving</div>
+      <div>Customer Service</div>
+      <div>Time Management</div>
+      <div>Critical Thinking</div>
+      <div>Adaptability</div>
+    </div>
+{*/}
 </div>
 
   </div>
