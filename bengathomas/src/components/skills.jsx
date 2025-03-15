@@ -65,6 +65,7 @@ const Skills = () => {
     </div>
 
     
+
 {/*    <h2 className="text-center m-4">Soft Skills</h2>
     <div className="grid grid-cols-3 gap 4 text-center">
       <div>Communication</div>
@@ -75,6 +76,8 @@ const Skills = () => {
       <div>Adaptability</div>
     </div>
 {*/}
+</div>
+
   </div>
 )
 
