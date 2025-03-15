@@ -18,67 +18,66 @@ const Skills = () => {
     
     <div>
 
-    <div>
-    <h1 className="text-center mb-8 mt-20 text-[5vw] font-bold">Skills</h1>
-      <div className='w-150 h-1500 grid grid-cols-3 gap-8 m-8 justify-items-center'>
+      <div>
+      <h1 className="text-center mb-8 mt-20 text-[5vw] font-bold">Skills</h1>
+        <div className='w-150 h-1500 grid grid-cols-3 gap-8 m-8 justify-items-center'>
 
-        <div>
-          <img className='"h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={jsLogo} alt='Javascript Logo'/>
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={awsLogo} alt='AWS Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={htmlLogo} alt='HTML Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={cssLogo} alt='CSS Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={mongodbLogo} alt='MongoDB logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={mysqlLogo} alt='MySQL Logo'/>
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={nodejsLogo} alt='NodeJS Logo'/>
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={postgresLogo} alt='Postgres Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={pythonLogo} alt='Python Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={reactLogo} alt='React Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={tailwindLogo} alt='Tailwind Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={vercelLogo} alt='Vercel Logo' />
-        </div>
-        <div>
-          <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={postmanLogo} alt='Postman Logo' />
+          <div>
+            <img className='"h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={jsLogo} alt='Javascript Logo'/>
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={awsLogo} alt='AWS Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={htmlLogo} alt='HTML Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={cssLogo} alt='CSS Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={mongodbLogo} alt='MongoDB logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={mysqlLogo} alt='MySQL Logo'/>
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={nodejsLogo} alt='NodeJS Logo'/>
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={postgresLogo} alt='Postgres Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={pythonLogo} alt='Python Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={reactLogo} alt='React Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={tailwindLogo} alt='Tailwind Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={vercelLogo} alt='Vercel Logo' />
+          </div>
+          <div>
+            <img className='h-20 w-20 transition-transform duration-300 transform hover:scale-150' src={postmanLogo} alt='Postman Logo' />
+          </div>
         </div>
       </div>
+
+      
+
+        {/*    <h2 className="text-center m-4">Soft Skills</h2>
+            <div className="grid grid-cols-3 gap 4 text-center">
+              <div>Communication</div>
+              <div>Problem Solving</div>
+              <div>Customer Service</div>
+              <div>Time Management</div>
+              <div>Critical Thinking</div>
+              <div>Adaptability</div>
+            </div>
+        {*/}
     </div>
 
-    
-
-{/*    <h2 className="text-center m-4">Soft Skills</h2>
-    <div className="grid grid-cols-3 gap 4 text-center">
-      <div>Communication</div>
-      <div>Problem Solving</div>
-      <div>Customer Service</div>
-      <div>Time Management</div>
-      <div>Critical Thinking</div>
-      <div>Adaptability</div>
-    </div>
-{*/}
-</div>
-
-  </div>
 )
 
 }
