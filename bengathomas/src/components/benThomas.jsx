@@ -8,7 +8,7 @@ const BenT = () => {
                         Benjamin <br /> Thomas
                     </h1>
                 <div className="mt-8">
-                    <a href="/assests/Benjamin Thomas Resume.pdf" 
+                    <a href="/assets/Benjamin Thomas Resume.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         download
