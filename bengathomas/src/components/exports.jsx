@@ -5,9 +5,9 @@ export const LINKS = [
     {id: "contact", name: "contact"}
   ];
 
-import CharacterPointBuy from "../public/assets/CharacterPointBuy.webp";
-import MLSAPI from "../public/assets/MLSAPI.png";
-import iPrep from "../public/assets/iPrep.png";
+import CharacterPointBuy from "/assets/CharacterPointBuy.webp";
+import MLSAPI from "/assets/MLSAPI.png";
+import iPrep from "/assets/iPrep.png";
 
 export const SKILLS =
     "React, Node, Tailwind, Javascript, HTML/CSS, MYSQL, Angular, Postgres, MongoDB, AWS, Python,"
